@@ -1,0 +1,4 @@
+__pycache__/
+token.secret
+token.secret.old
+venv/
