@@ -10,7 +10,7 @@ def post_new_article():
 
     myFeed = feedparser.parse('http://feeds.feedburner.com/EEJournalFeatureArticles.xml')
 
-    mastodon.status_post("There's a new article from EEJournal:\n"\
+    mastodon.status_post("A new article has been posted from EEJournal:\n"\
         + "\"" + myFeed.entries[0].title + "\"\n\n"\
         + myFeed.entries[0].link + "\n\n"
         + "#eeJournal")
