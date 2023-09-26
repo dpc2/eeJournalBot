@@ -2,3 +2,4 @@ __pycache__/
 token.secret
 token.secret.old
 venv/
+most_recent_post.txt
